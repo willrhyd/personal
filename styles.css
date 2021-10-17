@@ -1,0 +1,202 @@
+
+.container-fluid{
+  background:whitesmoke;
+}
+
+p{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 150px 50px;
+}
+
+
+h5{
+  font-size: 2rem;
+  font-weight: bold;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.side-nav{
+  background: rgb(74,99,231);
+  border-radius: 20px;
+  color: white;
+  padding: 2.5% 0 5% 0;
+  margin:0 5% 5% 5%;
+  position: sticky;
+  top:0;
+
+}
+.side-nav ul{
+  list-style-type:none;
+}
+
+.side-nav h1{
+  padding: 5%;
+}
+
+.side-nav a{
+  color: white;
+  list-style-type:none;
+}
+
+.profile-pic{
+  /* width: 30%; */
+  max-width: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+    display: none;
+}
+
+@media (max-width: 992px) {
+  .name-list{
+    display:none;
+  }
+
+  .side-nav{
+      text-align: end;
+      padding: 0 10px;
+
+  }
+  .fa-bars:before {
+      content: "\f0c9";
+      display: block;
+      float:right;
+      margin:10px;
+      size: 3em;
+  }
+  .wide-menu{
+    display: none;
+  }
+  .narrow-menu{
+    font-size:1.5rem;
+  }
+  .narrow-menu{
+    padding:0;
+    text-align: left;
+  }
+  .narrow-menu li{
+    margin: 10px 0;
+  }
+  .narrow-menu li:hover{
+    background:whitesmoke;
+  }
+  .narrow-menu a{
+    margin: 0 10px;
+  }
+  #side-nav-container{
+    position:sticky;
+    top:0;
+  }
+  #main-block-container{
+    position: inherit;
+  }
+  .skills-row{
+
+  }
+}
+
+.big-block{
+  background-color: #1abc9c;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: 'Shippori Mincho', serif;
+  height: 75vh;
+  margin: 5% 0;
+  text-align: center;
+  width: 100%;
+}
+
+.med-block{
+  background-color: #1abc9c;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: 'Shippori Mincho', serif;
+  height: 40vh;
+  text-align: center;
+  width: 100%;
+}
+
+.sm-block{
+  background-color: #1abc9c;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: 'Shippori Mincho', serif;
+  height: 25vh;
+  text-align: center;
+  width: 100%;
+}
+
+.block-heading{
+  font-size: 2rem;
+  font-weight: bold;
+  padding:25px 0 25px 0;
+}
+
+.personal{
+  background-image:
+    linear-gradient(rgba(74,99,231,.7), rgba(74,99,231,.7)),
+    url(public/images/morgan.jpg);
+  background-size: cover;
+  margin-top: 0;
+}
+
+.container-fluid{
+  margin-bottom:0;
+}
+
+.skills h5{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.skills li{
+  color: white;
+  display: inline;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  padding: 0 5px;
+}
+
+
+.projects{
+  color:white;
+  /* height: 100%; */
+}
+.projects li{
+  color: white;
+  display: inline;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  padding: 0 5px;
+}
+
+.projects img{
+  border-radius:20px;
+  max-width: 60%;
+  max-height: 60%;
+  margin: 0 auto;
+
+}
+
+.projects h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contact a, .contact a:hover, .contact a:visited, .contact a:active{
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding:0 20px;
+  text-decoration: none;
+  color:inherit;
+}
